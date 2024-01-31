@@ -1,0 +1,24 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "fileId": { "type": "string" },
+      "fileName": { "type": "string" },
+      "uploadDate": { "type": "string", "format": "date-time" },
+      "morbidConditions": {
+        "type": "object",
+        "properties": {
+          "T4": { "type": "string" },
+          "TSH": { "type": "string" },
+          "T3": { "type": "string" }
+        },
+        "required": ["T4", "TSH", "T3"],
+        "additionalProperties": true
+      },
+      "morbidConditionStr": { "type": "string" }
+    },
+    "required": ["fileId", "fileName", "uploadDate", "morbidConditions", "morbidConditionStr"],
+    "additionalProperties": false
+  }
+}

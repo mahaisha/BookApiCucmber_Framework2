@@ -1,0 +1,6 @@
+2024-01-30 00:11:08.317 INFO [main] [api.Stepdefinitions.Login_StepDefinitions.user_creates_request_for_the_account_api(Login_StepDefinitions.java:25)] - The user enters the UserAPI: 
+2024-01-30 00:12:20.153 INFO [main] [api.Stepdefinitions.Login_StepDefinitions.user_creates_request_for_the_account_api(Login_StepDefinitions.java:25)] - The user enters the UserAPI: 
+2024-01-30 00:22:21.483 INFO [main] [api.Stepdefinitions.Login_StepDefinitions.user_creates_request_for_the_account_api(Login_StepDefinitions.java:25)] - The user enters the UserAPI: 
+2024-01-30 08:43:16.174 INFO [main] [api.Stepdefinitions.Login_StepDefinitions.user_creates_request_for_the_account_api(Login_StepDefinitions.java:25)] - The user enters the UserAPI: 
+2024-01-30 08:48:03.877 INFO [main] [api.Stepdefinitions.Login_StepDefinitions.user_creates_request_for_the_account_api(Login_StepDefinitions.java:25)] - The user enters the UserAPI: 
+2024-01-30 09:35:24.642 INFO [main] [api.Stepdefinitions.Login_StepDefinitions.user_creates_request_for_the_account_api(Login_StepDefinitions.java:26)] - The user enters the UserAPI: 

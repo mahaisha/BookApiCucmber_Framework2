@@ -1,0 +1,51 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "patientId": { "type": "integer" },
+      "FirstName": { "type": "string" },
+      "LastName": { "type": "string" },
+      "ContactNumber": { "type": "string" },
+      "Email": { "type": "string", "format": "email" },
+      "Allergy": { "type": "string" },
+      "FoodCategory": { "type": "string" },
+      "FileMorbidity": {
+        "type": "object",
+        "patternProperties": {
+          "^[0-9a-f]{24}$": {
+            "type": "object",
+            "patternProperties": {
+              "T4": { "type": "string" },
+              "TSH": { "type": "string" },
+              "T3": { "type": "string" }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FileMorbidityCondition": {
+        "type": "object",
+        "patternProperties": {
+          "^[0-9a-f]{24}$": { "type": "string" }
+        },
+        "additionalProperties": false
+      },
+      "DateOfBirth": { "type": "string", "format": "date-time" },
+      "DieticianId": { "type": "integer" }
+    },
+    "required": [
+      "patientId",
+      "FirstName",
+      "LastName",
+      "ContactNumber",
+      "Email",
+      "Allergy",
+      "FoodCategory",
+      "DateOfBirth",
+      "DieticianId"
+    ],
+    "additionalProperties": false
+  }
+}

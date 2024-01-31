@@ -1,0 +1,1 @@
+{"uuid":"23ca1e55-661c-4d53-bbe2-61f78b8f8296","name":"Scenario Outline: check user is able to create user for Account Module by using valid endpoint and request body","children":["4d27f7e9-2f3e-4d79-9082-4db133897988"],"befores":[],"afters":[],"start":1706649701427,"stop":1706649702334}
